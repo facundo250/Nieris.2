@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: black;
+    overflow: hidden; 
+}
+
+#contenedor-principal {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory; 
+}
+
+.post {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.info-usuario {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.btn-like {
+    position: absolute;
+    right: 20px;
+    bottom: 120px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
